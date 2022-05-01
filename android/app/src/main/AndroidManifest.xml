@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.kira_exchange_client">
+    package="com.ayman.pay_now">
    <application
-        android:label="kira_exchange_client"
+        android:label="pay_now"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

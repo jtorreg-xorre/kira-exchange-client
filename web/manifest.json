@@ -1,6 +1,6 @@
 {
-    "name": "kira_exchange_client",
-    "short_name": "kira_exchange_client",
+    "name": "pay_now",
+    "short_name": "pay_now",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

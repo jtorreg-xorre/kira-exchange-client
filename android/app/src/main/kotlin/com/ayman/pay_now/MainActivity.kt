@@ -1,4 +1,4 @@
-package com.example.kira_exchange_client
+package com.ayman.pay_now
 
 import io.flutter.embedding.android.FlutterActivity
 
