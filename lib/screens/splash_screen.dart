@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-class SplashScreen extends StatelessWidget {
-  const SplashScreen({Key? key}) : super(key: key);
+class SplashScreenold extends StatelessWidget {
+  const SplashScreenold({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -10,7 +10,7 @@ class SplashScreen extends StatelessWidget {
       backgroundColor: Theme.of(context).colorScheme.primary,
       body: Center(
         child: SizedBox(
-          width: 106.w,
+          width: 147.w,
           height: 137.h,
           child: FittedBox(
             child: Image.asset('assets/images/Logo.png'),

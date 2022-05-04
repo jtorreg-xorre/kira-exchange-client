@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:pay_now/widgets/primary_button.dart';
-import 'package:pay_now/widgets/vertical_spacer.dart';
+import 'package:kira_book/widgets/primary_button.dart';
+import 'package:kira_book/widgets/vertical_spacer.dart';
 
 class LoginScreen extends StatelessWidget {
   const LoginScreen({Key? key}) : super(key: key);

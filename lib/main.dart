@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:pay_now/screens/contacts_screen.dart';
-import 'package:pay_now/screens/home_screen.dart';
-import 'package:pay_now/screens/profile_screen.dart';
-import 'package:pay_now/screens/settings_screen.dart';
-import 'package:pay_now/screens/transactions_screen.dart';
-import 'package:pay_now/widgets/vertical_spacer.dart';
+import 'package:kira_book/screens/contacts_screen.dart';
+import 'package:kira_book/screens/home_screen.dart';
+import 'package:kira_book/screens/login_signup_screen.dart';
+import 'package:kira_book/screens/profile_screen.dart';
+import 'package:kira_book/screens/transactions_screen.dart';
+import 'package:kira_book/widgets/vertical_spacer.dart';
+import 'package:splashscreen/splashscreen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -24,12 +25,12 @@ class MyApp extends StatelessWidget {
       builder: (_) => MaterialApp(
         useInheritedMediaQuery: true,
         debugShowCheckedModeBanner: false,
-        title: 'Pay Now',
+        title: 'kiraBook',
         theme: ThemeData(
           brightness: Brightness.light,
           colorScheme: ColorScheme.fromSwatch().copyWith(
-            primary: const Color(0xFF1A87DD),
-            secondary: const Color(0xFFF8BB18),
+            primary: const Color.fromARGB(255, 0, 0, 0),
+            secondary: const Color.fromARGB(255, 56, 126, 255),
             onSecondaryContainer: const Color(0xFF1A1A1A),
             onSurface: const Color(0xFF1A1A1A),
           ),
@@ -39,7 +40,25 @@ class MyApp extends StatelessWidget {
           )),
           fontFamily: 'SF-Pro-Rounded',
         ),
-        home: const SettingsScreen(),
+        home: SplashScreen(
+          seconds: 8,
+          navigateAfterSeconds: const LoginSignupScreen(),
+          title: Text(
+            'kiraBook',
+            style: TextStyle(
+              fontFamily: 'SF-Pro-Rounded',
+              fontWeight: FontWeight.w600,
+              fontSize: ScreenUtil().setSp(20),
+              color: const Color.fromARGB(255, 255, 255, 255),
+            ),
+          ),
+          image:  Image.asset('assets/images/Logo.png'),
+          photoSize: 100.0, 
+          backgroundColor: const Color.fromARGB(255, 0, 0, 0),
+          styleTextUnderTheLoader: const TextStyle(),
+          loaderColor: Colors.white
+        ),
+        
       ),
     );
   }
@@ -53,9 +72,9 @@ class App extends StatefulWidget {
 }
 
 class _AppState extends State<App> {
-  int currentScreenIndex = 3;
+  int currentScreenIndex = 0;
 
-  final screens = [
+  final screens = [    
     HomeScreen(),
     TransactionsScreen(),
     ContactsScreen(),

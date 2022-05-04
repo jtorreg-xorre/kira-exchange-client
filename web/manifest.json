@@ -1,6 +1,6 @@
 {
-    "name": "pay_now",
-    "short_name": "pay_now",
+    "name": "kiraBook",
+    "short_name": "kiraBook",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

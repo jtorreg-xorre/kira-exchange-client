@@ -1,12 +1,12 @@
-# pay_now
+# kira_book
 
 E-Wallet App
 
-#### Desing Credit : By  [Hisham Zayadnh](https://www.figma.com/community/file/1090938020479002157)  
+#### Desing Credit : By [Hisham Zayadnh](https://www.figma.com/community/file/1090938020479002157)
 
--------------  
+---
 
-## Screenshots  
+## Screenshots
 
 <p float="left">
   <img src="screenshots/1.jpg" width="200" />
@@ -33,15 +33,16 @@ E-Wallet App
   <img src="screenshots/22.jpg" width="200" />
 </p>
 
--------------  
+---
 
-## Screens  
-- Splash Screen  
+## Screens
+
+- Splash Screen
 - Onboarding Screens
 - Welcome Screen
 - Login Screen
 - Signup Screen
-- Home Screen 
+- Home Screen
 - Transactions Screen
 - Contacts Screen
 - Profile Screen

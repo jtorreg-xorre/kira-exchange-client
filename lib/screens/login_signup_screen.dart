@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:pay_now/widgets/primary_button.dart';
+import 'package:kira_book/widgets/primary_button.dart';
 
 class LoginSignupScreen extends StatelessWidget {
   const LoginSignupScreen({Key? key}) : super(key: key);
@@ -43,11 +43,11 @@ class LoginSignupScreen extends StatelessWidget {
             top: 212.h,
             left: 134.w,
             child: SizedBox(
-              width: 106.w,
+              width: 137.w,
               height: 137.h,
               child: FittedBox(
-                child: Image.asset('assets/images/HLogo.png'),
-                fit: BoxFit.fill,
+                child: Image.asset('assets/images/Logo.png'),
+                fit: BoxFit.scaleDown,
               ),
             ),
           ),
@@ -65,7 +65,7 @@ class LoginSignupScreen extends StatelessWidget {
                 children: const [
                   TextSpan(text: "The Best Way to"),
                   TextSpan(
-                      text: ' Transfer Money ',
+                      text: ' bookie ',
                       style: TextStyle(fontWeight: FontWeight.w600)),
                   TextSpan(text: "Safely"),
                 ],

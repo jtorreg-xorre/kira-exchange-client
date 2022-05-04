@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:pay_now/widgets/vertical_spacer.dart';
+import 'package:kira_book/widgets/vertical_spacer.dart';
 
 class InfoScreen extends StatelessWidget {
   const InfoScreen({Key? key}) : super(key: key);
