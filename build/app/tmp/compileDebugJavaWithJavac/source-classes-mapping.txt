@@ -1,0 +1,4 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+com/ayman/pay_now/BuildConfig.java
+ com.ayman.pay_now.BuildConfig

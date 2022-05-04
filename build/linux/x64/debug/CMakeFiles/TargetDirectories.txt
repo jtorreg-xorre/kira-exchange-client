@@ -1,0 +1,14 @@
+/home/jtorres/Projects/flutter/kira_book/kira_book_client/build/linux/x64/debug/CMakeFiles/install/strip.dir
+/home/jtorres/Projects/flutter/kira_book/kira_book_client/build/linux/x64/debug/CMakeFiles/edit_cache.dir
+/home/jtorres/Projects/flutter/kira_book/kira_book_client/build/linux/x64/debug/CMakeFiles/rebuild_cache.dir
+/home/jtorres/Projects/flutter/kira_book/kira_book_client/build/linux/x64/debug/CMakeFiles/kira_book_client.dir
+/home/jtorres/Projects/flutter/kira_book/kira_book_client/build/linux/x64/debug/CMakeFiles/list_install_components.dir
+/home/jtorres/Projects/flutter/kira_book/kira_book_client/build/linux/x64/debug/CMakeFiles/install/local.dir
+/home/jtorres/Projects/flutter/kira_book/kira_book_client/build/linux/x64/debug/CMakeFiles/install.dir
+/home/jtorres/Projects/flutter/kira_book/kira_book_client/build/linux/x64/debug/flutter/CMakeFiles/install/strip.dir
+/home/jtorres/Projects/flutter/kira_book/kira_book_client/build/linux/x64/debug/flutter/CMakeFiles/install/local.dir
+/home/jtorres/Projects/flutter/kira_book/kira_book_client/build/linux/x64/debug/flutter/CMakeFiles/flutter_assemble.dir
+/home/jtorres/Projects/flutter/kira_book/kira_book_client/build/linux/x64/debug/flutter/CMakeFiles/edit_cache.dir
+/home/jtorres/Projects/flutter/kira_book/kira_book_client/build/linux/x64/debug/flutter/CMakeFiles/rebuild_cache.dir
+/home/jtorres/Projects/flutter/kira_book/kira_book_client/build/linux/x64/debug/flutter/CMakeFiles/list_install_components.dir
+/home/jtorres/Projects/flutter/kira_book/kira_book_client/build/linux/x64/debug/flutter/CMakeFiles/install.dir
