@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
       builder: (_) => MaterialApp(
         useInheritedMediaQuery: true,
         debugShowCheckedModeBanner: false,
-        title: 'kiraBook',
+        title: 'kira',
         theme: ThemeData(
           brightness: Brightness.light,
           colorScheme: ColorScheme.fromSwatch().copyWith(
@@ -41,24 +41,23 @@ class MyApp extends StatelessWidget {
           fontFamily: 'SF-Pro-Rounded',
         ),
         home: SplashScreen(
-          seconds: 8,
+          seconds: 6,
           navigateAfterSeconds: const LoginSignupScreen(),
           title: Text(
-            'kiraBook',
+            'kira',
             style: TextStyle(
               fontFamily: 'SF-Pro-Rounded',
               fontWeight: FontWeight.w600,
-              fontSize: ScreenUtil().setSp(20),
+              fontSize: ScreenUtil().setSp(40),
               color: const Color.fromARGB(255, 255, 255, 255),
             ),
           ),
-          image:  Image.asset('assets/images/Logo.png'),
-          photoSize: 100.0, 
+          // image:  Image.asset('assets/images/Logo.png'),
+          // photoSize: 100.0,
           backgroundColor: const Color.fromARGB(255, 0, 0, 0),
-          styleTextUnderTheLoader: const TextStyle(),
-          loaderColor: Colors.white
+          // styleTextUnderTheLoader: const TextStyle(),
+          // loaderColor: Colors.white
         ),
-        
       ),
     );
   }
@@ -74,7 +73,7 @@ class App extends StatefulWidget {
 class _AppState extends State<App> {
   int currentScreenIndex = 0;
 
-  final screens = [    
+  final screens = [
     HomeScreen(),
     TransactionsScreen(),
     ContactsScreen(),

@@ -1,6 +1,6 @@
 {
-    "name": "kiraBook",
-    "short_name": "kiraBook",
+    "name": "kira",
+    "short_name": "kira",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
